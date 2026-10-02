@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build
+build/build/
+dist/
+
+# Installateurs et outils locaux
+inno_setup.exe
+install_log.txt
+
+test_install*/
+test_*.mp3
+test_*.wav
+
+# Secrets et réglages locaux — JAMAIS dans le dépôt
+config.json
+.env
+
+# Divers
+NVIDIA Corporation/
+appengine__init__.py
